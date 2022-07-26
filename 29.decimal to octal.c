@@ -11,5 +11,6 @@ int main()
         dec = dec / 8;
         i = i * 10;
     }
-    printf("%d ",sum);
+    printf("Octal Value : %d\n",oct);
+    return 0;
 }
