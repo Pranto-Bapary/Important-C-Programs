@@ -18,6 +18,9 @@ int main()
         arr[i] = arr[i+1];
     }
 
+    printf("\nDeleted successfully........\n");
+    printf("\nUpdated elements are : ");
+
     for(i = 0; i < num - 1; i++)
     {
         printf("%d ",arr[i]);
