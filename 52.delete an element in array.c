@@ -13,9 +13,9 @@ int main()
     printf("Enter the position of the value to delete : ");
     scanf("%d",&pos);
 
-    for(i = num - 1; i >= pos - 1; i--)
+    for(i = pos - 1; i < num - 1; i++)
     {
-        arr[i - 1] = arr[i];
+        arr[i] = arr[i+1];
     }
 
     for(i = 0; i < num - 1; i++)
