@@ -5,8 +5,10 @@ int main()
     int alphabet[26] = {0};
     int i, index;
     i = index = 0;
+
     printf("Enter an String : ");
     gets(string);
+
     while (string[i] != '\0')
     {
         if (string[i] >= 'a' && string[i] <= 'z')
