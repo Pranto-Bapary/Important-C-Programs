@@ -6,12 +6,12 @@ int main()
     gets(name);
     while (name[i] != '\0')
     {
-        if((int)name[i] >= 97)
-            printf("%c",name[i] - 32);
-        else if((int)name[i] >= 65)
-            printf("%c",name[i] + 32);
+        if ((int)name[i] >= 97)
+            printf("%c", name[i] - 32);
+        else if ((int)name[i] >= 65)
+            printf("%c", name[i] + 32);
         else
-            printf("%c",name[i]);
+            printf("%c", name[i]);
         i++;
     }
 
